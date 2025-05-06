@@ -17,3 +17,10 @@ git clone url
 npm install
 # run the application
 npm run dev
+# for production 
+npm run build 
+#Install serve globally with sudo : //serve is a simple static file server for Node.js, commonly used to serve frontend assets.
+sudo npm install -g serve
+# Run your app
+nohup serve -s dist -l 5173
+// want to run on background use "&' after 5173
