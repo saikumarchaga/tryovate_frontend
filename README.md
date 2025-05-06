@@ -15,5 +15,5 @@ If you are developing a production application, we recommend using TypeScript an
 git clone url
 # to install dependencies
 npm install
-# for testing the application
+# run the application
 npm run dev
